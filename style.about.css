@@ -1,0 +1,501 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 1519px;
+    height: 750px;
+    background-color: rgba(191, 191, 191, 0.292);
+}
+
+.header .logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    border: 5px solid  #005ae1;
+    border-radius: 50px;
+    background-color: #005ae1;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 2px;
+    margin-top: 40px;
+    position: absolute;
+    left: 730px;
+    top: 20px;
+}
+
+.menu .link_about_page {
+    text-decoration: underline;
+    color: white;
+}
+
+.header .link_contact_us {
+    margin-right: 50px;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.814);
+    margin-right: 90px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.main_box{
+    display: grid;
+    grid-template-columns: 800px 400px;
+}
+
+.main_box .main_photo {
+    width: 600px;
+    height: 500px;
+    margin-top: 170px;
+    cursor: pointer;
+}
+
+.main_box .main_text {
+    padding-top: 350px;
+    font-size: 30px;
+    font-weight: 600;  
+    font-size: 50px;
+    width: 620px;
+    padding-left: 150px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+
+
+/* about us */
+
+hr {
+    border: 1px solid rgb(97, 97, 97) ;
+}
+
+.about_us {
+    background-color: rgba(130, 130, 130, 0.145);
+    font-family: "poppins";
+    display: grid;
+    grid-template-columns: 1000px 500px;
+    grid-template-rows: 190px 390px 390px 440px 470px 550px;
+    padding: 50px;
+}
+
+.title_about_us {
+    margin-top: 50px;
+    border: 2px solid #005ae1;
+    background-color: #005ae1;
+    width: 420px;
+    height: 70px;
+    margin-left: 60px;
+    font-size: 39px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #003078;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+/* about JIHC projects */
+
+.jihc_projects:hover {
+    border: 3px solid grey;
+}
+
+.jihc_projects {
+    background-color: rgba(208, 208, 208, 0.427);
+    border-radius: 20px;
+    border: 3px solid rgba(208, 208, 208, 0.427);
+    padding: 20px;
+    width: 1300px;
+    height: 400px;
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 5/6;
+    margin-top: 30px;
+    margin-left: 50px;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+    cursor: pointer;
+}
+
+.title_project {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #003078;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.projects p {
+    width: 350px;
+    margin-right: 100px;
+}
+
+.projects button {
+    margin-top: 30px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    background-color: #005ae1;
+    border: none;
+    border-radius: 10px;
+}
+
+.readx button {
+    margin-top: 50px;
+}
+
+.jihc_voice button {
+    margin-top: 100px;
+}
+
+
+/* about president */
+
+.president_jihc:hover {
+    border: 3px solid grey;
+}
+
+.president_jihc {
+    background-color: rgba(208, 208, 208, 0.427);
+    border-radius: 20px;
+    border: 3px solid rgba(208, 208, 208, 0.427);
+    padding: 20px;
+    width: 340px;
+    height: 600px;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+    cursor: pointer;
+}
+
+.president_jihc img {
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.president_jihc h3 {
+    color: #003078;
+    margin-top: 20px;
+}
+
+.president_jihc .pre_name {
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+}
+
+.president_jihc .info_pre {
+    width: 300px;
+    margin-top: 10px;
+}
+
+/* about professions */
+
+.profession_jihc:hover {
+    border: 3px solid grey;
+}
+
+.profession_jihc {
+    background-color: rgba(208, 208, 208, 0.427);
+    border-radius: 20px;
+    border: 3px solid rgba(208, 208, 208, 0.427);
+    padding: 40px;
+    width: 900px;
+    height: 350px;
+    display: grid;
+    grid-template-columns: 500px 200px;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-left: 50px;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+    cursor: pointer;
+}
+
+.profession_jihc h1 {
+    margin-bottom: 20px;
+    color: #003078;
+    font-size: 30px;
+}
+
+.profession_jihc .IT {
+    margin-right: 150px;
+}
+
+/* about JIHC */
+
+.about_jihc:hover {
+    border: 3px solid grey;
+}
+
+.about_jihc {
+    background-color: rgba(208, 208, 208, 0.427);
+    border-radius: 20px;
+    border: 3px solid rgba(208, 208, 208, 0.427);
+    padding: 40px;
+    width: 800px;
+    height: 350px;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 50px;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+    cursor: pointer;
+}
+
+.about_jihc p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about_jihc p:nth-child(2) {
+    margin-bottom: 20px;
+}
+
+/* about JIHC library */
+
+.jihc_library:hover {
+    border: 3px solid grey;
+}
+
+
+.jihc_library {
+    background-color: rgba(208, 208, 208, 0.427);
+    border-radius: 20px;
+    border: 3px solid rgba(208, 208, 208, 0.427);
+    padding: 20px;
+    width: 1090px;
+    height: 430px;
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    margin-left: 150px;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+    cursor: pointer;
+}
+
+.title_library {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #003078;
+}
+
+.info_library {
+    margin-bottom: 20px;
+}
+
+.photos_library img{
+    margin-right: 20px;
+}
+
+/* college teacher */
+
+.college_teachers {
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 6/7;
+    background-color: rgba(208, 208, 208, 0.427);
+    border-radius: 20px;
+    border: 3px solid rgba(208, 208, 208, 0.427);
+    padding: 30px;
+    width: 1300px;
+    height: 480px;
+    margin-left: 50px;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 20%;
+    cursor: pointer;
+}
+
+.college_teachers:hover {
+    border: 3px solid grey;
+}
+
+.profile_teacher {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.teacher-1, .teacher-2, .teacher-3, .teacher-4, .teacher-5, .teacher-6, .teacher-7, .teacher-8 {
+    margin: 0px 40px 0px 40px
+}
+
+
+.title_teachers {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #003078;
+}
+
+.profile_teacher .second_name {
+    margin-top: 0px;
+}
+
+.college_teachers img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.college_teachers h3 {
+    font-size: 20px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.college_teachers p {
+    margin-top: 10px;
+}
+
+@keyframes scroll {
+    from{
+        opacity: 0;
+        scale: 0.8;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+    
+}
+
+/* footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.83);
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+
+.info-1 ,.info-2 {
+    padding: 50px 185px;
+    cursor: pointer;
+}
+
+.info-1 img {
+    width: 120px;
+    height: 120px;
+}
+
+.info-1 p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+
+}
+
+.link_insta ,.link_telegram ,.link_google ,.phone_us {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.info-3 {
+    margin-left: 100px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.info-3 p {
+    margin: 10px 30px 10px 0px;
+    font-size: 15px;
+}
+
+.phone_us img {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.info-2 {
+    padding-top: 80px;
+    padding-right: 200px;
+}
+
+.info-2 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.814);
+    font-size: 15px;
+    font-weight: 500;
+    display: grid;
+    grid-template-rows: repeat(5, -10px);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.info-2 a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.info-2 .link_about_page {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_bottom {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.718);
+    padding: 20px ;
+    text-align: center;
+    font-size: 10px;
+}

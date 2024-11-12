@@ -1,0 +1,474 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 1519px;
+    height: 750px;
+}
+
+.bg_main {
+    width: 1519px;
+    height: 750px;
+}
+
+.header .logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    border: 5px solid  #005ae1;
+    border-radius: 50px;
+    background-color: #005ae1;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 2px;
+    margin-top: 40px;
+    position: absolute;
+    left: 730px;
+    top: 20px;
+}
+
+.header .link_contact_us {
+    margin-right: 50px;
+}
+
+.menu .link_home_page {
+    text-decoration: underline;
+    color: white;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.814);
+    margin-right: 90px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+
+/* section id="home_page"*/
+
+.main_page {
+    background-color: rgba(193, 193, 193, 0.177);
+    height: 3250px;
+}
+
+.section_title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section_text {
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.home_section {
+    padding: 100px 115px;
+}
+
+.section_name {
+    border: 2px solid #005ae1;
+    background-color: #005ae1;
+    width: 420px;
+    height: 70px;
+    font-size: 39px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #003078;
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 450px 450px 450px ;
+    height: 850px;
+}
+
+.box-1, .box-2, .box-3 {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(222, 222, 222, 0.492);
+    padding-bottom: 30px;
+    width: 400px;
+    height: 750px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px grey;
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
+.box-1:hover ,.box-2:hover ,.box-3:hover {
+    transform: scale(1.1);
+}
+
+.box_photo {
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+    height: 400px;
+    background-color: white;
+}
+
+.name_box {
+    width: 380px;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.date_box {
+    width: 380px;
+    padding: 0px 30px 30px 30px;
+    font-size: 14px;
+    color: orangered;
+    font-weight: 600;
+}
+
+hr {
+    border: 1px solid rgb(97, 97, 97) ;
+}
+
+/* price  */
+
+.price_home {
+    width: 1310px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.price_section .section_name {
+    margin-left: 105px;
+    margin-bottom: 0px;
+    margin-top: 80px;
+}
+
+.container_price {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    height: 650px;
+}
+
+.container_price-1, .container_price-2 {
+    background-color: rgba(196, 196, 196, 0.492);
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px grey;
+    height: 480px;
+    cursor: pointer;
+}
+
+.header_price {
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: rgba(36, 36, 36, 0.728);
+}
+
+/* .free_education {
+    display: flex;
+    flex-direction: row;
+} */
+
+.class_profession {
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-bottom: 35px;
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 280px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(0, 128, 0);
+    color: white;
+    margin-left: 20px;
+}
+
+.price_scholarship, .price_paid {
+    margin-bottom: 60px;
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+.price_scholarship span {
+    font-size: 20px;
+}
+
+.price_paid span {
+    font-size: 20px;
+}
+
+
+/* reviews */
+
+.reviews .section_name {
+    margin-left: 100px;
+    width: 600px;
+    margin-top: 80px;
+}
+
+.review_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 900px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.best_reviews {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.person_review-1, .person_review-2, .person_review-3 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.review_container img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+
+.person_review {
+    width: 430px;
+}
+
+.person_name {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.person_name a {
+    text-decoration: none;
+    color: black;
+}
+
+.person_review-3 {
+    margin-bottom: 50px;
+}
+
+.review_container-1 {
+    width: 500px;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+
+.review_container-1 p {
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.review_name {
+    margin-left: 40px;
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.review_surname {
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.your_review {
+    width: 415px;
+    margin-left: 40px;
+    margin-top: 10px;
+    height: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.review_container-1 button {
+    letter-spacing: 7px;
+    font-weight: 700;
+    color: #ffffff;
+    width: 200px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    border: none;
+    border-radius: 40px;
+    background-color: #0066ff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    transition: 1.5s ease-in-out;
+    transform: rotate(360deg);
+}
+
+
+
+/* powered by */
+
+
+.powered_by {
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.SDU {
+    width: 500px;
+    height: 50px;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.innovation {
+    margin-left: 300px;
+    height: 80px;
+    margin-top: 50px;
+}
+
+/* footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.83);
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+
+.info-1 ,.info-2 {
+    padding: 50px 185px;
+    cursor: pointer;
+}
+
+.info-1 img {
+    width: 120px;
+    height: 120px;
+}
+
+.info-1 p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+
+}
+
+.link_insta ,.link_telegram ,.link_google ,.phone_us {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-3 {
+    margin-left: 100px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.info-3 p {
+    margin: 10px 30px 10px 0px;
+    font-size: 15px;
+}
+
+.phone_us img {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.info-2 {
+    padding-top: 80px;
+    padding-right: 200px;
+}
+
+.info-2 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.814);
+    font-size: 15px;
+    font-weight: 500;
+    display: grid;
+    grid-template-rows: repeat(5, -10px);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.info-2 a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.info-2 .link_home_page {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_bottom {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.718);
+    padding: 20px ;
+    text-align: center;
+    font-size: 10px;
+}

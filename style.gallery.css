@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header_gallery {
+    background-color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 1519px;
+    height: 150px;
+}
+
+.header_gallery .logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 80px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.header_gallery .bg {
+    width: 1519px;
+    height: 750px;
+}
+
+.header_gallery .menu {
+    border: 5px solid  #005ae1;
+    border-radius: 50px;
+    background-color: #005ae1;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 2px;
+    margin-top: 40px;
+    position: absolute;
+    left: 730px;
+    top: 20px;
+}
+
+.header_gallery .menu .link_gallery {
+    text-decoration: underline;
+    color: white;
+}
+
+.header_gallery .link_contact_us {
+    margin-right: 50px;
+}
+
+.header_gallery a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.814);
+    margin-right: 90px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.header_gallery a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* gallery */
+
+
+hr {
+    border: 1px solid rgb(97, 97, 97) ;
+}
+
+.gallery {
+    background-color: rgba(130, 130, 130, 0.145);
+    padding: 100px;
+    display: grid;
+    height: 2650px;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows:  110px 193px 193px 193px 193px 193px 193px 193px 193px 193px 193px;
+    gap: 30px;
+}
+
+.title_gallery {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    grid-column: 1/7;
+    grid-row: 1/2;
+    font-size: 40px;
+    border: 2px solid #005ae1;
+    background-color: #005ae1;
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #003078;
+    color: white;
+    text-align: center;
+}
+
+.glr-1 {
+    display: grid;
+    grid-row: 2/4;
+}
+
+.glr-2 {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+
+.glr-2:hover, 
+.glr-1:hover, 
+.glr-3:hover, 
+.glr-4:hover, 
+.glr-8:hover, 
+.glr-10:hover, 
+.glr-11:hover, 
+.glr:hover, 
+.glr-7:hover,
+.glr-5:hover, 
+.glr-6:hover, 
+.glr-12:hover,
+.glr-13:hover,
+.glr-14:hover,
+.glr-15:hover,
+.glr-16:hover,
+.glr-17:hover,
+.glr-18:hover,
+.glr-20:hover {
+    transform: scale(1.1);
+}
+
+
+.glr-2, 
+.glr-1, 
+.glr-3, 
+.glr-4, 
+.glr-8, 
+.glr-10, 
+.glr-11, 
+.glr, 
+.glr-7,
+.glr-5, 
+.glr-6, 
+.glr-12,
+.glr-13,
+.glr-14,
+.glr-15,
+.glr-16,
+.glr-17,
+.glr-18,
+.glr-20 {
+    transition: transform 0.7s ease;
+    border-radius: 10px;
+    animation: scroll linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+    cursor: pointer;
+}
+
+
+.glr-3 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 6/7;
+    margin-top: 130px;
+}
+
+
+.glr-4 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 6/7;
+}
+
+.glr-5 {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 6/7;
+}
+
+.glr-6 {
+    display: grid;
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.glr-7 {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.glr-8 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 4/6;
+    margin-top: 130px;
+}
+
+.glr-10 {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 4/6;
+
+}
+
+.glr-11 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 2/5;
+}
+
+.glr {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 4/7;
+}
+
+.glr-12 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 8/10;
+}
+
+.glr-13 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 8/10;
+    margin-top: -50px;
+}
+
+.glr-14 {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 7/10;
+    margin-top: 110px;
+}
+
+.glr-15 {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 7/10;
+    margin-top: -40px;
+}
+
+.glr-17 {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 10/11;
+}
+
+.glr-16 {
+    display: grid;
+    grid-column: 4/5;
+    grid-row: 9/10;
+    margin-top: -50px;
+}
+
+.glr-18 {
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 10/11;
+    margin-top: -60px;
+}
+
+.glr-20 {
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 10/11;
+}
+
+@keyframes scroll {
+    from {
+        opacity: 0;
+        scale: 0.7;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+
+
+/* footer */
+
+footer {
+    background-color: rgba(0, 0, 0, 0.83);
+    border-radius: 50px 50px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer_top{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+}
+
+.info-1 ,.info-2 {
+    padding: 50px 185px;
+    cursor: pointer;
+}
+
+.info-1 img {
+    width: 120px;
+    height: 120px;
+}
+
+.info-1 p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -20px;
+
+}
+
+.link_insta ,.link_telegram ,.link_google ,.phone_us {
+    display: flex;
+    flex-direction: row;
+}
+
+.info-3 {
+    margin-left: 100px;
+    margin-top: 70px;
+    cursor: pointer;
+}
+
+.info-3 p {
+    margin: 10px 30px 10px 0px;
+    font-size: 15px;
+}
+
+.phone_us img {
+    height: 30px;
+    margin-top: 5px;
+}
+
+.info-2 {
+    padding-top: 80px;
+    padding-right: 200px;
+}
+
+.info-2 a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.814);
+    font-size: 15px;
+    font-weight: 500;
+    display: grid;
+    grid-template-rows: repeat(5, -10px);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.info-2 a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.info-2 .link_gallery {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer_bottom {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.718);
+    padding: 20px ;
+    text-align: center;
+    font-size: 10px;
+}
